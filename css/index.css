@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Prompt&display=swap');
+
+:root {
+    --font-color: black;
+    font-family: 'Gayathri', sans-serif;
+}
+header nav p{
+    margin: 0;
+    text-align:left;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+header nav #logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+header nav .menu{
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+header nav .menu li a{
+    text-decoration: none;
+    color: var(--font-color);
+    border: 1px solid transparent;
+    padding: 3px;
+
+}
+
+header nav .menu li a:hover {
+    border: 1px solid blue;
+
+}
